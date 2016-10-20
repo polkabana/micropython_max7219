@@ -19,7 +19,6 @@ display.show()
 sta_if = network.WLAN(network.STA_IF)
 sta_if.active(True)
 sta_if.connect("SSID", "WIFI_PASSWORD")
-sta_if.active(True)
 ip = '0.0.0.0'
 
 while ip == '0.0.0.0':

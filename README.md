@@ -1,7 +1,7 @@
 ESP8266 micropython MAX7219 weather display
 ===========================================
 
-This project gets weather info from http://naromon.ru sensor and display it on dot matrix 8x8 display connected to ESP8266 module. I use chinese clone of Wemos D1 mini.
+This project gets weather info from http://narodmon.ru sensor and display it on dot matrix 8x8 display connected to ESP8266 module. I use chinese clone of Wemos D1 mini.
 
 ```
 Pin-Mapping:
@@ -16,7 +16,7 @@ D7	DIN
 
 Used firmware esp8266-20161007-v1.8.4-147-gdc43508.bin
 
-Upload wirmware:
+Upload firmware:
 ```esptool.py --port COM4 --baud 460800 write_flash --flash_size=8m 0 esp8266-20161007-v1.8.4-147-gdc43508.bin```
 
 Release esp8266-20160909-v1.8.4.bin was very strange. It have file that confilcts with http_client.py
