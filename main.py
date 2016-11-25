@@ -44,7 +44,7 @@ while True:
 		print(r.text)
 		d = r.json()
 		temp = round(d['sensors'][0]['value'])
-		sign = '+' if temp >= 0 else '-'
+		sign = '+' if temp >= 0 else ''
 
 		str_display = '%s%d' % (sign, temp)
 		pos = int((4*8 - len(str_display)*5) / 2)
